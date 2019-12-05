@@ -1,0 +1,11 @@
+{ "manifest_version": 2, "name": "BetWatcher", "description": "Keep track of your bet pages.", "version": "1", "author": "Evan",
+    "browser_action": {      "default_title": "Have a good day" },
+    "chrome_url_overrides" : {  "newtab": "hackathonHTML.html"},
+    "permissions": ["activeTab", "notifications"]
+    {
+        "background": {
+          "scripts": ["hackathon.js"],
+          "persistent": true
+        }
+    }
+    }
